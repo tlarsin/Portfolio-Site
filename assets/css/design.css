@@ -237,6 +237,10 @@ hr {
         margin-top: 25px;
         width: 100%
     }
+
+    .botSection {
+        margin-top: 200px;
+    }
     /**********/
     /* Footer */
     /**********/
@@ -251,6 +255,10 @@ hr {
     /***************/
     .child {
         padding: 40px 20px 10px 20px;
+    }
+
+    .botSection {
+        margin-top: 100px;
     }
 }
 
@@ -270,6 +278,10 @@ hr {
     /*******************/
     .content {
         margin-top:40px;
+    }
+
+    .botSection {
+        margin-top: 0px;
     }
     /**********/
     /* Footer */

@@ -110,14 +110,13 @@ a {
 
 .buttons {
   width: auto;
-  display: block;
-  background-color: #000;
 }
 
 .viewBtn {
+    display: inline-block;
     width: 95px;
     text-align: center;
-    margin: 0;
+    margin: 5px;
     height: 36px;
     line-height: 36px;
     background-color: #4A4A4A;
@@ -127,10 +126,6 @@ a {
 .viewBtn a {
     color: white;
     display: block;
-}
-
-.viewBtn2 {
-
 }
 
 hr {

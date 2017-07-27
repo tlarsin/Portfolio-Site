@@ -65,7 +65,7 @@ a {
 .content {
     margin: auto;
     width: 60%;
-    height: 1100px;
+    height: auto;
 }
 
 .contentTop {
@@ -90,7 +90,7 @@ a {
 .section {
     width: 100%;
     text-align: center;
-    height: 400px;
+    overflow: auto;
 }
 
 .left {
@@ -217,16 +217,10 @@ hr {
         padding: 40px 20px 10px 20px;
     }
 
-    .content {
-        height: auto;
-    }
     /************/
     /* Sections */
     /************/
-    .section1,
-    .section2 {
-        height: auto;
-    }
+
     .left {
         float: none;
         margin-top: 0px;

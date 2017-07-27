@@ -143,18 +143,6 @@ span {
     margin: auto;
 }
 
-.leftForm {
-    float: left;
-    width: 50%;
-    margin: auto;
-}
-
-.rightForm {
-    float: right;
-    width: 50%;
-    margin-bottom: 25px;
-}
-
 input {
     width: 300px;
     height: 36px;
@@ -208,7 +196,7 @@ hr {
     padding-top: 20px;
     margin-left: 20%;
     height: 175px;
-    width: 240px;
+    width: 225px;
     text-align: center;
     overflow: hidden;
 }

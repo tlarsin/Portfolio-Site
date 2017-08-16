@@ -24,23 +24,8 @@ a {
     src: local('Avenir Next LT Pro Condensed'), url('AvenirNextLTPro-Cn.woff') format('woff');
 }
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    padding-left:  10px;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-  padding-left:  10px;
+input {
 
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   padding-left:  10px;
-
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   padding-left:  10px;
-
-}
-::-ms-input-placeholder { /* Microsoft Edge */
-   padding-left:  10px;
 }
 
 /***************/
@@ -143,29 +128,46 @@ input {
     height: 36px;
     border-radius: 5px;
     margin: 10px auto;
+    padding-left: 10px;
     background-color: white;
     border: 1px solid #979797;
     -webkit-box-shadow: inset 0px 1px 0px 0px #dddddd;
     -moz-box-shadow: inset 0px 1px 0px 0px #dddddd;
     box-shadow: inset 0px 1px 0px 0px #dddddd;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+textarea {
+    width: 300px;
+    height: 146px;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px 0 0 10px;
+    background-color: white;
+    border: 1px solid #979797;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #dddddd;
+    -moz-box-shadow: inset 0px 1px 0px 0px #dddddd;
+    box-shadow: inset 0px 1px 0px 0px #dddddd;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+.g-recaptcha{
+   margin: 5px auto !important;
+   width: 300px !important;
+   height: auto !important;
+   text-align: -webkit-center;
+   text-align: -moz-center;
+   text-align: -o-center;
+   text-align: -ms-center;
 }
 
 .submit {
     width: 300px;
     padding-left: 0;
-}
-
-textarea {
-    height: 146px;
-    width: 300px;
-    margin: 10px auto;
-    border-radius: 5px;
-    background-color: white;
-    border: 1px solid #979797;
-    padding:10px 0 0 0;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #dddddd;
-    -moz-box-shadow: inset 0px 1px 0px 0px #dddddd;
-    box-shadow: inset 0px 1px 0px 0px #dddddd;
 }
 
 hr {

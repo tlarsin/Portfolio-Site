@@ -81,9 +81,6 @@ class Projects extends Component {
                         if encrypted or '.txt' if not.</p>
                   <div class="buttons">
                     <div class="viewBtn">
-                        <a href="#" target="_blank">View</a>
-                    </div>
-                    <div class="viewBtn">
                         <a href="https://github.com/tlarsin/file-encryptor" target="_blank">GitHub</a>
                     </div>
                   </div>

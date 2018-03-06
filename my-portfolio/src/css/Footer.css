@@ -1,0 +1,74 @@
+/**********/
+/* Footer */
+/**********/
+
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+.info {
+    padding-top: 20px;
+    margin-left: 20%;
+    width: 225px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.info a {
+    color: white;
+}
+
+.info li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.list {
+  height: inherit;
+    float: left;
+}
+
+/*********************/
+/* Responsive Sizing */
+/*********************/
+
+@media (max-width:1200px) {
+
+    /**********/
+    /* Footer */
+    /**********/
+    .info {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width:1000px) {
+    /**********/
+    /* Footer */
+    /**********/
+    .info {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width:700px) {
+    /**********/
+    /* Footer */
+    /**********/
+    .footer {
+        margin-top: 75px;
+    }
+}
+
+
+@media (max-width:400px) {
+
+    /**********/
+    /* Footer */
+    /**********/
+    .info {
+        margin: auto;
+    }
+}

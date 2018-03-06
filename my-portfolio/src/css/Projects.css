@@ -1,3 +1,6 @@
+
+
+
 /***************/
 /* Top Section */
 /***************/
@@ -92,11 +95,25 @@
     line-height: 36px;
     background-color: #4A4A4A;
     border-radius: 8px;
+
+    -webkit-transition: background-color 1s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: background-color 1s;
+    transition-timing-function: linear;
 }
 
 .viewBtn a {
     color: white;
     display: block;
+}
+
+.viewBtn:hover {
+    background-color: #737373;
+}
+
+.viewBtn:hover a {
+    color: white;
+
 }
 
 hr {

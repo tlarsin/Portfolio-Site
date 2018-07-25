@@ -116,58 +116,9 @@ span {
     margin: auto;
 }
 
-.form {
-    width: 313px;
-    height: auto;
-    margin-top: 25px;
-    margin: auto;
-}
-
-input {
-    width: 300px;
-    height: 36px;
-    border-radius: 5px;
-    margin: 10px auto;
-    padding-left: 10px;
-    background-color: white;
-    border: 1px solid #979797;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #dddddd;
-    -moz-box-shadow: inset 0px 1px 0px 0px #dddddd;
-    box-shadow: inset 0px 1px 0px 0px #dddddd;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-}
-
-textarea {
-    width: 300px;
-    height: 146px;
-    border-radius: 5px;
-    margin: 10px auto;
-    padding: 10px 0 0 10px;
-    background-color: white;
-    border: 1px solid #979797;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #dddddd;
-    -moz-box-shadow: inset 0px 1px 0px 0px #dddddd;
-    box-shadow: inset 0px 1px 0px 0px #dddddd;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;
-}
-
-.g-recaptcha{
-   margin: 5px auto !important;
-   width: 300px !important;
-   height: auto !important;
-   text-align: -webkit-center;
-   text-align: -moz-center;
-   text-align: -o-center;
-   text-align: -ms-center;
-}
-
-.submit {
-    width: 300px;
-    padding-left: 0;
+#contact {
+    color: #000;
+    font-weight: bold;
 }
 
 hr {
@@ -277,21 +228,7 @@ hr {
         width: 80%;
         margin: auto;
     }
-    /*.form {
-        height: auto;
-        width: 100%;
-        margin-top: 25px;
-    }
-    .leftForm {
-        float: none;
-        width: 100%;
 
-    }
-    .rightForm {
-        float: none;
-        width: 100%;
-        margin-top: 20px;
-    }*/
     /**********/
     /* Footer */
     /**********/
@@ -336,26 +273,6 @@ hr {
         margin: 20px 0 0px 0;
     }
 
-    /************/
-    /* Sections */
-    /************/
-    .form {
-        width: 100%;
-    }
-
-    input {
-        width: 100%;
-        /*padding: 0;*/
-    }
-
-    textarea {
-        width: 100%;
-        /*padding: 0;*/
-    }
-
-    .submit {
-        width: 100%;
-    }
     /**********/
     /* Footer */
     /**********/

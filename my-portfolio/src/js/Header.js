@@ -12,9 +12,8 @@ class Header extends Component {
       <div className='top'>
         <h1>Tristan Larsin</h1>
 
-        <Link to="/" className='child'>Home</Link>
-        <Link to="/Projects" className='child'>Projects</Link>
-
+        <Link to="/" className='child' activeClassName="active">Home</Link>
+        <Link to="/projects" className='child' activeClassName="active">Projects</Link>
       </div>
     );
   }

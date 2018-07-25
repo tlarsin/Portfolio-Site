@@ -1,3 +1,8 @@
+.active {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #A7A7A7;
+}
+
 .top {
     margin: auto;
     padding: 0;

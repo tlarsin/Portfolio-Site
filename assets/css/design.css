@@ -112,13 +112,17 @@ a {
 
 .viewBtn {
     display: inline-block;
-    width: 95px;
+    min-width: 95px;
     text-align: center;
     margin: 5px;
     height: 36px;
     line-height: 36px;
     background-color: #4A4A4A;
     border-radius: 8px;
+}
+
+.viewBtn-xl {
+    padding:  0 15px 0 15px;
 }
 
 .viewBtn a {

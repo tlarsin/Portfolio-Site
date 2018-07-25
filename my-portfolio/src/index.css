@@ -19,3 +19,7 @@ a {
     font-weight: normal;
     src: local('Avenir Next LT Pro Condensed'), url('./avenir-next-lt-pro/AvenirNextLTPro-Cn.woff') format('woff');
 }
+
+.active a {
+    
+}

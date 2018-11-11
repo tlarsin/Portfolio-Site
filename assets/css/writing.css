@@ -5,25 +5,21 @@
 body {
     margin: 0;
     padding: 0;
-    color: #4A4A4A;
-    font-family: 'Avenir Next LT Pro Condensed';
+    color: #707070;
+    font-family: Delicious;
+    font-weight: bold;
     font-size: 14;
 }
 
 a {
     text-decoration: none;
-    color: #4A4A4A;
+    color: #707070;
     text-align: center;
     margin: 0 auto;
 }
 
-@font-face {
-    font-family: 'Avenir Next LT Pro Condensed';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir Next LT Pro Condensed'), url('AvenirNextLTPro-Cn.woff') format('woff');
-}
-
+@font-face { font-family: Delicious; src: url('../Delicious-Roman.otf') format('opentype');  }
+@font-face { font-family: Delicious; font-weight: bold; src: url('../Delicious-Bold.otf'); }
 
 /***************/
 /* Top Section */
@@ -39,6 +35,7 @@ a {
 
 .top h1 {
     font-size: 36px;
+    color: #000000;
 }
 
 .parent {
@@ -53,7 +50,7 @@ a {
 
 .active a {
     padding-bottom: 10px;
-    border-bottom: 1px solid #A7A7A7;
+    color: #000000;
 }
 
 
@@ -64,97 +61,59 @@ a {
 .content {
     margin: auto;
     width: 60%;
-    height: auto;
-}
-
-.content img {
-    width: 60%;
-}
-
-.content h1 {
-    text-align: center;
+    margin-bottom: 250px;
 }
 
 .contentTop {
-    height: 180px;
+    height: 300px;
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .contentTop h2 {
-    margin-top: 20px;
+    font-size: 16px;
+    color: #000000;
 }
 
-.contentTop p {
-    margin: 20px 0 90px 0;
+.contentTop img {
+  padding-bottom: 100px;
 }
 
+span {
+    font-weight: bold;
+}
 
 /************/
 /* Sections */
 /************/
 
-.section1,
-.section2 {
+.section {
     width: 100%;
-    text-align: center;
+    text-align: left;
     overflow: auto;
     height: auto;
+    margin-top: 35px;
 }
 
-.viewBtn a {
-    color: white;
-    display: block;
+.section h2 {
+  color: #000000;
+  margin: 0;
+}
+
+.section a {
+  color: #000000;
+
+}
+
+.section a:hover {
+  color: #4A4A4A;
 }
 
 hr {
-    width: 80%;
+    width: 100%;
     background-image: moz-linear-gradient(left, #A7A7A7 30%, #D3D3D3 100%);
     background-image: -webkit-linear-gradient(left, #A7A7A7 30%, #D3D3D3 100%);
     background-image: linear-gradient(to right, #A7A7A7 30%, #D3D3D3 100%);
 }
-
-.writing-hr {
-    margin-top: 40px;
-}
-
-/**********/
-/* Footer */
-/**********/
-
-.footer {
-    margin-top: 150px;
-    width: 100%;
-    height: 200px;
-    background-color: black;
-}
-
-.info {
-    padding-top: 20px;
-    margin-left: 20%;
-    height: 175px;
-    width: 225px;
-    text-align: center;
-    overflow: hidden;
-}
-
-.info a {
-    color: white;
-}
-
-.info li {
-    list-style: none;
-    padding-bottom: 20px;
-}
-
-.leftList {
-    float: left;
-}
-
-.rightList {
-    float: right;
-}
-
 
 /*********************/
 /* Responsive Sizing */
@@ -166,28 +125,10 @@ hr {
     .content {
         width: 80%;
     }
-    /**********/
-    /* Footer */
-    /**********/
-    .info {
-        margin-left: 15%;
-    }
 }
 
 @media (max-width:1000px) {
-    /*******************/
-    /* Content Section */
-    /*******************/
-    .content {
-        width: 100%;
 
-    }
-    /**********/
-    /* Footer */
-    /**********/
-    .info {
-        margin-left: 5%;
-    }
 }
 
 @media (max-width:700px) {
@@ -202,24 +143,14 @@ hr {
         height: auto;
     }
 
-    .content img {
-        width: 80%;
-    }
     /************/
     /* Sections */
     /************/
-    .section1,
-    .section2 {
+    .section {
         height: auto;
     }
     .section2 {
         margin-top: 100px;
-    }
-    /**********/
-    /* Footer */
-    /**********/
-    .footer {
-        margin-top: 75px;
     }
 }
 
@@ -229,14 +160,6 @@ hr {
     /***************/
     .child {
         padding: 40px 20px 10px 20px;
-    }
-
-    .content h2 {
-        padding: 0 20px 0 20px;
-    }
-
-    .content p {
-        padding: 0 20px 0 20px;
     }
 }
 
@@ -255,12 +178,16 @@ hr {
     /* Content Section */
     /*******************/
     .content {
-        margin-top:40px;
+        margin-top:80px;
     }
-    /**********/
-    /* Footer */
-    /**********/
-    .info {
-        margin: auto;
+
+    .contentTop {
+        height: 180px;
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .contentTop p {
+        margin: 20px 0 0px 0;
     }
 }

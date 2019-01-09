@@ -118,6 +118,10 @@ span {
   margin: 0;
 }
 
+.timeStamp {
+  font-style: italic;
+  font-size: 15px;
+}
 .section a {
   color: #000000;
 

@@ -1,0 +1,88 @@
+body {
+  background-color: #1a1a1a;
+  color: #F2F3F4;
+  font-family: 'national_parkregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+    font-family: 'national_parkregular';
+    src: url('..res/fonts/nationalpark-regular-webfont.woff2') format('woff2'),
+         url('..res/fonts/nationalpark-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+  position: relative;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header h1 {
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.header h3 {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.title {
+  width: 50%;
+  float: left;
+}
+
+.nav {
+  position: inherit;
+  right: 50px;
+  top: 16px;
+  width: 50%;
+  float: right;
+  vertical-align: middle;
+}
+
+.nav a {
+  font-size: 24px;
+  display: block; /* Make the links appear below each other */
+  padding: 5px;
+  text-decoration: none; /* Remove underline from links */
+  text-align: right;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+.nav a.active {
+  color: #ffffff;
+}
+
+.footer {
+  position:fixed;
+  left:50px;
+  bottom:50px;
+  height:30px;
+  width:100%;
+}
+
+.social-icons img {
+  margin-right: 5px;
+}
+
+.logo-container {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}

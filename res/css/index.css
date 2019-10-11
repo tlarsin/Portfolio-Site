@@ -56,11 +56,35 @@ body {
 }
 
 .nav a:hover {
-  color: #ffffff;
+  color: #d8d8d8;
 }
 
 .nav a.active {
   color: #ffffff;
+}
+
+.content {
+  position: relative;
+  top: 100px;
+  margin-left: 200px;
+  clear: both;
+  font-size: 18px;
+  font-weight: bold;
+  color: #D8D8D8;
+  line-height: 1.2;
+}
+
+.content a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.content p {
+  width: auto;
+}
+
+.middle {
+  margin-top: 50px;
 }
 
 .footer {

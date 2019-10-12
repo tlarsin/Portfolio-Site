@@ -1,8 +1,126 @@
 .container {
-  margin: auto;
-  width: auto;
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
 }
 
-.h1 {
-  align: center;
+.header {
+  margin: 0 auto;
+  height: auto;
+  width: 60%;
+  margin-bottom: 100px;
+}
+
+.header h1 {
+  text-align:center;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.header h3 {
+  text-align:center;
+  margin-top: 0px;
+  color: #F2F3F4;
+}
+
+.header img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+
+ul {
+  width: 50%;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+li {
+  height: 80px;
+  background-color: #F2F3F4;
+  margin-top: 25px;
+}
+
+li a {
+  display: block;
+  color: #1a1a1a;
+  text-align: center;
+  font-size: 32px;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+/* Change the link color on hover */
+li:hover {
+  background-color: #555;
+  transition: background-color .5s ease;
+}
+
+li:hover a {
+  color: #F2F3F4;
+  transition: color .5s ease;
+}
+
+.logo {
+  margin-top: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media only screen and (max-width:1200px) {
+  ul {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  ul {
+    width: 80%;
+  }
+
+  li {
+    height: 60px;
+  }
+
+  li a {
+    font-size: 24px;
+    line-height: 60px;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .header {
+    width: 100%;
+  }
+
+  .header img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header h3 {
+    font-size: 14px;
+  }
+
+  li {
+    height: 40px;
+  }
+
+  li a {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
 }

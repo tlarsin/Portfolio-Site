@@ -1,3 +1,9 @@
+html, body {
+  margin:0;
+  padding:0;
+  height: auto;
+}
+
 body {
   background-color: #1a1a1a;
   color: #F2F3F4;

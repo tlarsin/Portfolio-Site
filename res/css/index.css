@@ -63,9 +63,8 @@
   text-decoration: none;
 }
 
-
 .content p {
-  width: auto;
+  width: 60%;
 }
 
 .middle {
@@ -73,11 +72,15 @@
 }
 
 .footer {
-  position:fixed;
-  left:50px;
+  position:absolute;
+  height: 60px;
   bottom:50px;
-  height:30px;
-  width:100%;
+  right: 50px;
+  left: 50px;
+}
+
+.social-icons {
+  float: left;
 }
 
 .social-icons img {
@@ -85,13 +88,119 @@
 }
 
 .logo-container {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
+  float: right;
 }
 
 /* IE 6 */
 * html #footer {
    position:absolute;
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+@media only screen and (max-width: 1000px) {
+  .footer {
+    bottom:25px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    margin-top:25px;
+  }
+
+  .title {
+    width: 100%;
+    float: none;
+  }
+
+  .nav {
+    position: relative;
+    float: none;
+    clear: left;
+    width: 100%;
+    left:  0px;
+    right: 0px;
+  }
+
+  .nav a {
+    text-align: left;
+  }
+
+  .content p {
+    width: 80%;
+  }
+
+  .footer {
+    position: relative;
+    width: 350px;
+    margin-top: 200px;
+  }
+
+  .social-icons {
+    width: auto;
+    display: block;
+    margin-right: 10px;
+    top: 40%;
+    transform: translate(0%,40%);
+  }
+
+  .logo-container {
+    position: relative;
+    display: block;
+    float: none;
+    left: 0px;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .header {
+    margin-left:25px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header h3 {
+    font-size: 14px;
+  }
+
+  .content {
+    top: 50px;
+    margin-left: 25px;
+  }
+
+  .nav a {
+    font-size: 18px;
+  }
+
+  .content img {
+    height: 300px;
+    width: auto;
+  }
+
+  .footer {
+    width: 280px;
+    left: 25px;
+    margin-top: 150px;
+    margin-right: 0px;
+  }
+
+  .social-icons {
+    width: auto;
+    display: block;
+    margin-right: 10px;
+    top: 40%;
+    transform: translate(0%,40%);
+  }
+
+  .logo-container {
+    display: block;
+    float: none;
+    left: 0px;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
 }

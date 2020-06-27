@@ -47,10 +47,15 @@
   color: #ffffff;
 }
 
-.content {
+.container {
+  min-height: 100%;
   position: relative;
-  top: 100px;
+}
+
+.content {
+  margin-top: 50px;
   margin-left: 50px;
+  padding-bottom: 100px;
   clear: both;
   font-size: 18px;
   font-weight: bold;
@@ -72,9 +77,9 @@
 }
 
 .footer {
-  position:absolute;
+  position: absolute;
+  bottom: 0;
   height: 60px;
-  bottom:50px;
   right: 50px;
   left: 50px;
 }
@@ -91,11 +96,6 @@
   float: right;
 }
 
-/* IE 6 */
-* html #footer {
-   position:absolute;
-   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
-}
 @media only screen and (max-width: 1000px) {
   .footer {
     bottom:25px;
